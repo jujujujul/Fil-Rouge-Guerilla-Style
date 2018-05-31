@@ -1,1 +1,95 @@
 
+body{
+    background-image: url(backgroundbody.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#alertcircle{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container{
+    line-height: 30px;
+}
+
+.sousjumbo {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+}
+
+#logo{
+    width:20vw; 
+}
+
+.logo{
+    text-align: center;
+    margin:6%;
+}
+
+#alertcircleintern{
+    margin-top: 14%;
+    
+}
+
+#interest{
+    box-shadow: 9px 4px 11px #a9a598;
+}
+
+#decal{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.rightcircle{
+    margin-top: 6%;
+}
+
+.bigtitle{
+    
+  animation-duration: 4s;
+  animation-name: slidein;
+
+}
+
+#bigtitle{
+    background-image: url(backgroundjumbotron.png);
+    background-position: center;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+footer{
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+
+}
+
+#bunny{
+    float: right;
+}
+
+#bottomright{
+   background-color: aliceblue;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        font-size: 10px;
+    }
+
