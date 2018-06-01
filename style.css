@@ -11,14 +11,23 @@ body{
     margin-top: 15px;
 }
 
-.container{
-    line-height: 30px;
-}
+
 
 .sousjumbo {
     font-family: 'Tangerine', cursive;
     font-size: 50px;
+    
 }
+
+#accueilborder{
+    border-bottom: 1px solid darkred;
+    color:darkred;
+}
+#test {
+    width: 100%;
+    border: 1px solid red;
+}
+
 
 #logo{
     width:20vw; 
@@ -34,8 +43,14 @@ body{
     
 }
 
+.yellow{
+    margin-top: 70px;
+    
+}
+
 #interest{
     box-shadow: 9px 4px 11px #a9a598;
+    
 }
 
 #decal{
@@ -45,6 +60,13 @@ body{
 
 .rightcircle{
     margin-top: 6%;
+}
+
+p{
+    font-weight:300;
+    line-height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
 }
 
 .bigtitle{
@@ -75,8 +97,8 @@ body{
 
 footer{
     margin-top: 20px;
-    font-size: 10px;
-    text-align: right;
+    font-size: 14px;
+    text-align: center;
 
 }
 
@@ -88,8 +110,9 @@ footer{
    background-color: aliceblue;
 }
 
-@media screen and (max-width: 640px) {
-    .container{
-        font-size: 10px;
+@media screen and (max-width: 520px) {
+    p:not(.sousjumbo){
+        font-size: 15px;
+        line-height: 15px;
     }
 
